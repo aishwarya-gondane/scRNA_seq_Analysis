@@ -1,5 +1,3 @@
-markdown
-
 # 10X Genomics Data Integration and Visualization Shiny App
 
 This Shiny app allows users to analyze and visualize single-cell RNA sequencing data from 10X Genomics. It supports data from two datasets (Control and Treated), performs quality control (QC) checks, integrates the datasets, and visualizes the results using various plots, including violin plots, UMAP plots, clustering results, and a cell cycle heatmap.
