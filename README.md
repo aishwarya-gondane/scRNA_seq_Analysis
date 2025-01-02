@@ -9,6 +9,9 @@ This Shiny app allows users to analyze and visualize single-cell RNA sequencing 
 - **Cluster Distribution:** Visualizes clusters of cells after integration and clustering.
 - **Cell Cycle Heatmap:** Plots a heatmap of cell cycle gene expression across the cells, grouped by their sample identity.
 
+- The samples are filtered based on the below criteria:
+- nFeature_RNA > 500 & nFeature_RNA < 5000 & percent.mt < 10
+
 ## **Requirements**
 
 - R (version >= 4.0.0)
